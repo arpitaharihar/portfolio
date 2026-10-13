@@ -100,7 +100,7 @@ export default function Projects() {
 
                 <div className="proj-hover-hint" aria-hidden="true">
                   <Sparkles size={14} className="sparkle-icon" />
-                  <span>Click me for more details</span>
+                  <span>View project details</span>
                   <ArrowRight size={14} className="arrow-icon" />
                 </div>
 

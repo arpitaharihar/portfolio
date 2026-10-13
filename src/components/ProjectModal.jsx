@@ -82,11 +82,11 @@ export default function ProjectModal({ project, onClose }) {
         </div>
 
         <div className="modal-footer">
-          <button className="btn outline sm" onClick={onClose} type="button">
+          <button className="btn outline sm modal-cancel-btn" onClick={onClose} type="button">
             Close
           </button>
           <a
-            className="btn primary sm"
+            className="btn primary sm modal-action-btn"
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
